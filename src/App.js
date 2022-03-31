@@ -13,7 +13,7 @@ export default function App() {
     <div>
     <Container className="vertical-center">
 
-        <Col xs={12} md={12} id="div1">
+        <Col xs={12} md={10} id="div1">
         <NavBar />  
         </Col>
 
@@ -23,7 +23,7 @@ export default function App() {
         <MainImage />
         </Col>
 
-        <Col xs={12} md={9} id="div3">
+        <Col xs={12} md={7} id="div3">
         <Outlet />
         </Col>
 
