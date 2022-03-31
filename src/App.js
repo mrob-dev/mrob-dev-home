@@ -13,7 +13,7 @@ export default function App() {
     <div>
     <Container className="vertical-center">
 
-        <Col xs={12} sm={12} md={12} xl={10} id="div1">
+        <Col xs={12} sm={12} md={12} xl={{ span: 8, offset: 1 }} id="div1">
         <NavBar />  
         </Col>
 
