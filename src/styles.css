@@ -42,7 +42,6 @@ html, body {
 #div2 { 
   display: grid;
   text-align: center;
-  
   overflow: hidden;
   align-items: center;
   justify-content: center;
