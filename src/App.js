@@ -13,11 +13,13 @@ export default function App() {
     <div>
     <Container className="vertical-center">
 
-        <Row className="align-items-center">
-
-          <Col sm={2} id="div1">
+    <Col sm={10} id="div1">
           <NavBar />  
           </Col>
+
+        <Row className="align-items-center">
+
+          
 
           <Col sm={3} id="div2">
             <MainImage />
