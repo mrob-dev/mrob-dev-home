@@ -1,0 +1,118 @@
+/* General Styles */
+p {
+  font-family: Helvetica;
+  font-size: 12px;
+}
+
+.centered {
+  display: grid;
+  justify-content: center;
+  -ms-transform: translateY(15%);
+  transform: translateY(15%);
+}
+
+.width {
+  justify-content: center;
+  margin: auto;
+  max-width: 600px;
+}
+
+
+/* Main Image Style */
+#mainimage {
+  justify-content: center;
+  height: 250px;
+  width: 400px;
+
+}
+
+/* Portfolio Links */
+#imgthumb {
+  height: 40px;
+  width: 40px;
+  margin: 0px 15px;
+}
+
+#imgrow {
+  display: flex;
+  justify-content: center;
+}
+
+/* Text Styles */
+#matthewrobinson {
+    font-family: Helvetica;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-right: 30px;
+    color: #080305;
+    letter-spacing: 3px;
+  }
+  
+  #tagline {
+    font-family: Helvetica;
+    text-align: center;
+    color: #080305;
+    margin-right: 30px;
+  }
+  
+  #tag {
+    font-family: Helvetica;
+    font-weight: bold;
+  }
+
+  
+/* Expertise Column Styles */
+  .columns {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .column {
+    flex: 33.33%;
+  }
+
+  
+/* Contact Form Styles */
+  .contact-input {
+    color:black;
+    font-family: Helvetica;
+    font-weight:500;
+    font-size: 18px;
+    border-radius: 5px;
+    line-height: 22px;
+    background-color: transparent;
+    border:2px solid black;
+    transition: all 0.3s;
+    padding: 13px;
+    margin-bottom: 15px;
+    width:100%;
+    box-sizing: border-box;
+    outline:0;
+  }
+  
+  .contact-input:focus { border:2px solid black; }
+  
+  textarea {
+    height: 150px;
+    line-height: 150%;
+    resize:vertical;
+  }
+  
+  [type="submit"] {
+    font-family: Helvetica;
+    width: 100%;
+    background:black;
+    border-radius:5px;
+    border:0;
+    cursor:pointer;
+    color:white;
+    font-size:24px;
+    padding-top:10px;
+    padding-bottom:10px;
+    transition: all 0.3s;
+    margin-top:-4px;
+    font-weight:700;
+  }
+  [type="submit"]:hover { background: black; }
