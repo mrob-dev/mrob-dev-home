@@ -10,20 +10,20 @@ import NavBar from './navBar/navBar';
 
 export default function App() {
   return (
-    <div className="vertical-center">
-    <Container>
+    <div >
+    <Container >
 
-        <Col xs={12} sm={12} md={12} xl={{ span: 8, offset: 1 }} id="div1">
+        <Col xs={12} sm={12} md={12} lg={{ span: 8, offset: 2 }} id="div1">
         <NavBar />  
         </Col>
 
-        <Row className="align-items-center">
+        <Row>
 
-        <Col xs={12} sm={12} md={5} xl={3} id="div2">
+        <Col xs={12} sm={12} md={5} lg={{ span: 3, offset: 1}} id="div2">
         <MainImage />
         </Col>
 
-        <Col xs={12} sm={12} md={7} xl={7} id="div3">
+        <Col xs={12} sm={12} md={7} lg={{ span: 7}} id="div3">
         <Outlet />
         </Col>
 
