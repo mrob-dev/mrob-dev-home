@@ -6,19 +6,6 @@ html, body {
   height: 100%;
   }
 
-  
-/* Main */
-.vertical-center {
-  background:pink;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  margin: auto;
-  top: 0%;
-  -ms-transform: translateY(0%);
-  transform: translateY(0%);
-}
-
 
 /* Main Divs */
 #div1 { 
@@ -29,7 +16,6 @@ html, body {
   border-left: solid white 2px;
   padding-top: 10px;
   padding-bottom: 10px;
-  box-shadow: 0px;
 }
 
 #div2 { 
@@ -38,9 +24,7 @@ html, body {
   overflow: hidden;
   align-items: center;
   justify-content: center;
-  box-shadow: 0px;
 }
-
 
 #div3 { 
   background-color: white;
@@ -59,7 +43,6 @@ html, body {
   48.6px 26.7px 16.5px -10px rgba(0, 0, 0, 0.058),
   91px 50px 31px -10px rgba(0, 0, 0, 0.07);
 }
-
 
 /* Navigation */
 .navcolumns {
