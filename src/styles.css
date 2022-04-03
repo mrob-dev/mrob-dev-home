@@ -66,7 +66,7 @@ html, body {
  display: block;
  margin-left: auto;
  margin-right: auto;
- padding: 5px;
+ padding: 2px;
  transition: transform 1s;
 }
 #nav-image:hover {
@@ -76,9 +76,7 @@ html, body {
 .nav-link {
     font-family: Helvetica;
     text-align: center;
-    background-color: #00c853;
-    border-radius: 10px;
-    color: white;
+    color: black;
     font-weight: normal;
     font-size: 0.8rem;
     text-transform: uppercase;
@@ -86,10 +84,12 @@ html, body {
 }
 
 .nav-link:hover {
+  background-color: #00c853; 
   color: white;
 }
 
 .nav-link:active {
+  background-color: #00c853; 
   color: white;
 }
 
@@ -110,8 +110,10 @@ h1 {
 
 h2 {
     font-family: Helvetica;
-    text-align: center;
-    color: black;
+    text-align: right;
+    background-color: #00c853;
+    color: white;
+    padding: 3px 15px;
     font-weight: bold;
     font-size: 1rem;
     text-transform: uppercase;
@@ -119,20 +121,21 @@ h2 {
   }
 
 h3 {
-    font-family: Helvetica;
-    text-align: center;
-    font-size: 0.9rem;
-    font-weight: bold;
-    color: black;
+  font-family: Helvetica;
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 1.7px;
   }
 
 h4 {
-    font-family: Helvetica;
-    font-size: 0.9rem;
-    text-align: center;
-    font-weight: bold;
-    color: black;
-    letter-spacing: 1px;
+  font-family: Helvetica;
+  text-align: center;
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: black;
   }
 
   /* Responsiveness */

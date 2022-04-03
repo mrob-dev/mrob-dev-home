@@ -10,7 +10,7 @@ export default function About() {
                     <img src={mainimage} id="mainimage" alt="Main"/>
                     <br/>
                     <h1 id="matthewrobinson">MATT ROBINSON</h1>
-                    <p id="tagline"><span id="tag"> FULL-STACK WEB DEVELOPER</span></p>    
+                    <p id="tag"> FULL-STACK WEB DEVELOPER</p>    
             </div>
     )
 }
