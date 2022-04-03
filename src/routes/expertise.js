@@ -4,7 +4,7 @@ import './main.css';
 
 export default function Expertise() {
     return (
-            <div className="centered">
+            <div>
 
                 <h2>My Expertise</h2>
                 <br/>
