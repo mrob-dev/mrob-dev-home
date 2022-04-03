@@ -10,8 +10,8 @@ import NavBar from './navBar/navBar';
 
 export default function App() {
   return (
-    <div>
-    <Container className="vertical-center">
+    <div className="vertical-center">
+    <Container>
 
         <Col xs={12} sm={12} md={12} xl={{ span: 8, offset: 1 }} id="div1">
         <NavBar />  
