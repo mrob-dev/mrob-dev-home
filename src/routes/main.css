@@ -21,6 +21,11 @@ p {
   text-align: left;
 }
 
+#resume {
+  text-align: center;
+  text-decoration: none;
+}
+
 
 /* Main Image Style */
 #mainimage {
