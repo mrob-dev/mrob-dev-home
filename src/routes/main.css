@@ -7,8 +7,8 @@ p {
 .centered {
   display: grid;
   justify-content: center;
-  -ms-transform: translateY(15%);
-  transform: translateY(15%);
+  -ms-transform: translateY(5%);
+  transform: translateY(5%);
 }
 
 .width {
@@ -70,6 +70,7 @@ p {
 
 .column {
   flex: 33.33%;
+  margin: 0px 3px;
 }
 
 
