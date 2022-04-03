@@ -17,13 +17,13 @@ export default function NavBar() {
         </div>
 
       <div class="navcolumn">
-        <NavLink to="/expertise"><img src={aboutIcon} id="nav-image" alt="Expertise" /></NavLink>
-        <NavLink to="/expertise" className="nav-link">Expertise</NavLink>
+        <NavLink to="/experience"><img src={portIcon} id="nav-image" alt="Experience" /></NavLink>
+        <NavLink to="/experience" className="nav-link">Experience</NavLink>
         </div>
 
       <div class="navcolumn">
-        <NavLink to="/experience"><img src={portIcon} id="nav-image" alt="Experience" /></NavLink>
-        <NavLink to="/experience" className="nav-link">Experience</NavLink>
+        <NavLink to="/expertise"><img src={aboutIcon} id="nav-image" alt="Expertise" /></NavLink>
+        <NavLink to="/expertise" className="nav-link">Expertise</NavLink>
         </div>
 
       <div class="navcolumn">

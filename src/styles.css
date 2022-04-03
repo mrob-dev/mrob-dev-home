@@ -16,6 +16,7 @@ html, body {
   border-left: solid white 2px;
   padding-top: 10px;
   padding-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 #div2 { 
@@ -24,6 +25,7 @@ html, body {
   overflow: hidden;
   align-items: center;
   justify-content: center;
+  margin-right: 15px;
 }
 
 #div3 { 
@@ -64,6 +66,7 @@ html, body {
  height: 50px;
  width: 50px;
  display: block;
+ background-color: white;
  margin-left: auto;
  margin-right: auto;
  padding: 2px;
@@ -71,27 +74,34 @@ html, body {
 }
 #nav-image:hover {
  transform: scale(1.1);
+ background-color: white;
 }
 
 .nav-link {
     font-family: Helvetica;
     text-align: center;
     color: black;
-    font-weight: normal;
+    font-weight: 600;
     font-size: 0.8rem;
     text-transform: uppercase;
     width: 100px;   
 }
 
 .nav-link:hover {
-  background-color: #00c853; 
-  color: white;
+  border: 5px;
+  color: black;
 }
 
-.nav-link:active {
-  background-color: #00c853; 
-  color: white;
+a {
+  font-family: Helvetica;
+  text-align: center;
+  color: black;
+  font-weight: 600;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  text-decoration: none;  
 }
+
 
  /* Content Styles */
 p {
@@ -110,9 +120,9 @@ h1 {
 
 h2 {
     font-family: Helvetica;
-    text-align: right;
-    background-color: #00c853;
-    color: white;
+    text-align: left;
+    margin-left: 50px;
+    color: black;
     padding: 3px 15px;
     font-weight: bold;
     font-size: 1rem;
@@ -122,7 +132,7 @@ h2 {
 
 h3 {
   font-family: Helvetica;
-  text-align: center;
+  text-align: left;
   color: black;
   font-weight: bold;
   font-size: 1rem;
@@ -132,14 +142,14 @@ h3 {
 
 h4 {
   font-family: Helvetica;
-  text-align: center;
+  text-align: left;
   font-size: 0.9rem;
   font-weight: bold;
   color: black;
   }
 
   /* Responsiveness */
-  @media only screen and (max-width: 700px)
+  @media only screen and (max-width: 1200px)
  {
   .navcolumns {
     display: flex;
@@ -165,7 +175,7 @@ h4 {
     border-left: solid white 2px;
     padding-top: 20px;
     padding-bottom: 20px;
-    box-shadow: 0px;
+    margin-bottom: 0px;
   }
 
   #div2 { 
@@ -175,7 +185,7 @@ h4 {
     overflow: hidden;
     align-items: center;
     justify-content: center;
-    box-shadow: 0px;
+    margin-right: 0px;
   }
   
   #div3 { 
@@ -185,7 +195,6 @@ h4 {
     min-height: 600px;
     max-height: 400px;
     box-shadow: 0px;
-  ;
   }
  }
 
@@ -206,12 +215,23 @@ h4 {
     border-left: solid white 2px;
     padding-top: 20px;
     padding-bottom: 20px;
-    box-shadow: 1px;
+    margin-bottom: 0px;
   }
 
   #div2 { 
     min-width: 300px;
     box-shadow: 0px;
+    margin-right: 0px;
+  }
+
+  #div3 { 
+    background-color: white;
+    border-top: solid white 2px;  
+    padding: 25px;
+    max-height: 500px;
+
+    box-shadow: 0px;
+    margin: 0px;
   }
 
   .navcolumns {
