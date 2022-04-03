@@ -7,8 +7,8 @@ p {
 .centered {
   display: grid;
   justify-content: center;
-  -ms-transform: translateY(5%);
-  transform: translateY(5%);
+  -ms-transform: translateY(15%);
+  transform: translateY(15%);
 }
 
 .width {

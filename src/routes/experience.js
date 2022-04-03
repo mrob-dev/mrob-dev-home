@@ -4,7 +4,7 @@ import './main.css';
 
 export default function Experience() {
     return (
-      <div className="centered">
+      <div>
         <h2>My Experience</h2>
           <br/>
           <h3>Full-Stack Engineer Career Path</h3>
