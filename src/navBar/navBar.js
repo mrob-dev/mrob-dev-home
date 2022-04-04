@@ -5,7 +5,7 @@ import './navBar.css';
 import homeIcon from './icons/homepage.png';
 import aboutIcon from './icons/about.png';
 import portIcon from './icons/portfolio.png';
-import contIcon from './icons/contact.png';
+import resumeIcon from './icons/resume.png';
 
 export default function NavBar() {
   return ( 
@@ -27,8 +27,8 @@ export default function NavBar() {
         </div>
 
       <div class="navcolumn">
-        <NavLink to="/contact"><img src={contIcon} id="nav-image" alt="Contact" /></NavLink>
-        <NavLink to="/contact" className="nav-link">Contact</NavLink>
+        <a href="../mattrobinson-fullstackcv-2022.pdf"><img src={resumeIcon} id="nav-image" alt="Contact" /></a>
+        <a href="../mattrobinson-fullstackcv-2022.pdf" className="nav-link">Resume</a> 
         </div>
         
       </div>
