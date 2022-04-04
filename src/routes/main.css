@@ -1,14 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap');
+
 /* General Styles */
 p {
-  font-family: Helvetica;
+  font-family: 'Montserrat';
   font-size: 12px;
-}
-
-.centered {
-  display: grid;
-  justify-content: center;
-  -ms-transform: translateY(15%);
-  transform: translateY(15%);
 }
 
 .centered-main {
@@ -62,15 +57,16 @@ p {
 
 /* Text Styles */
 #matthewrobinson {
-    font-family: Helvetica;
+    font-family: 'Montserrat';
     text-align: center;
     font-size: 2.5rem;
     color: #080305;
+    font-weight: bold;
     letter-spacing: 3px;
   }
 
 #tag {
-  font-family: Helvetica;
+  font-family: 'Montserrat';
   text-align: center;
   color: white;
   background: #080305;
@@ -93,47 +89,3 @@ p {
   text-align: center;
   margin: 0px 3px;
 }
-
-
-/* Contact Form Styles */
-.contact-input {
-  color:black;
-  font-family: Helvetica;
-  font-weight: 500;
-  font-size: 14px;
-  border-radius: 5px;
-  line-height: 22px;
-  background-color: transparent;
-  border:2px solid black;
-  transition: all 0.3s;
-  padding: 13px;
-  margin-bottom: 15px;
-  width:100%;
-  box-sizing: border-box;
-  outline:0;
-}
-
-.contact-input:focus { border:2px solid black; }
-
-textarea {
-  height: 150px;
-  line-height: 100%;
-  resize:vertical;
-}
-
-[type="submit"] {
-  font-family: Helvetica;
-  width: 100%;
-  background:black;
-  border-radius:5px;
-  border:0;
-  cursor:pointer;
-  color:white;
-  font-size:14px;
-  padding-top:10px;
-  padding-bottom:10px;
-  transition: all 0.3s;
-  margin-top:-4px;
-  font-weight:700;
-}
-[type="submit"]:hover { background:#00c853; }
