@@ -24,8 +24,6 @@ export default function Expertise() {
                   </p>
                   <br/>
                
-                <h2>My Other Skills</h2>
-                <br/>
                   <div class="columns">
                     <div class="column">
                     <h3>Creation</h3>

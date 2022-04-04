@@ -1,6 +1,6 @@
 /* Universal Styles */
 html, body {
-  font-family: Helvetica;
+  font-family: 'Montserrat';
   font-size: 14px;
   background-color: whitesmoke;
   height: 100%;
@@ -78,7 +78,7 @@ html, body {
 }
 
 .nav-link {
-    font-family: Helvetica;
+  font-family: 'Montserrat';
     text-align: center;
     color: black;
     font-weight: 600;
@@ -93,7 +93,7 @@ html, body {
 }
 
 a {
-  font-family: Helvetica;
+  font-family: 'Montserrat';
   text-align: center;
   color: black;
   font-weight: 600;
@@ -105,7 +105,7 @@ a {
 
  /* Content Styles */
 p {
-    font-family: Helvetica;
+  font-family: 'Montserrat';
     color:black;
     font-size: 1rem;
     text-align: center;
@@ -113,13 +113,13 @@ p {
 
 /* Header */
 h1 {
-    font-family: Helvetica;
+  font-family: 'Montserrat';
     text-align: center;
     color: whitesmoke;
   }
 
 h2 {
-    font-family: Helvetica;
+  font-family: 'Montserrat';
     text-align: left;
     margin-left: 50px;
     color: black;
@@ -131,7 +131,7 @@ h2 {
   }
 
 h3 {
-  font-family: Helvetica;
+  font-family: 'Montserrat';
   text-align: left;
   color: black;
   font-weight: bold;
@@ -141,7 +141,7 @@ h3 {
   }
 
 h4 {
-  font-family: Helvetica;
+  font-family: 'Montserrat';
   text-align: left;
   font-size: 0.9rem;
   font-weight: bold;
