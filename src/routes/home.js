@@ -1,7 +1,5 @@
 import React from 'react';
 
-import './main.css';
-
 import mainimage from './img/mainimage.png';
 import github from './img/github.png';
 import linkedin from './img/linkedin-black.png';
