@@ -315,7 +315,6 @@ p {
 
   #div2 { 
     min-width: 300px;
-    box-shadow: 0px;
     margin-right: 0px;
   }
 
@@ -323,7 +322,7 @@ p {
     background-color: white;
     border-top: solid white 2px;  
     padding: 25px;
-    min-height: 800px;
+    height: fit-content;
     box-shadow: 0px;
     margin: 0px;
   }
