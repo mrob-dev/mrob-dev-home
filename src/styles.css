@@ -293,7 +293,7 @@ p {
   }
 }
 
- @media only screen and (max-width: 600px) {
+ @media only screen and (max-width: 500px) {
   .vertical-center {
     margin: auto;
     position: relative;
@@ -323,7 +323,7 @@ p {
     background-color: white;
     border-top: solid white 2px;  
     padding: 25px;
-    min-height: 700px;
+    min-height: 800px;
     box-shadow: 0px;
     margin: 0px;
   }
