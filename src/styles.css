@@ -1,10 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap');
+
 /* Universal Styles */
 html, body {
   font-family: 'Montserrat';
   font-size: 14px;
   background-color: whitesmoke;
   height: 100%;
-  }
+}
+
+p {
+  font-family: 'Montserrat';
+  color:black;
+  font-size: 1rem;
+  text-align: center;
+}
+
+a {
+  font-family: 'Montserrat';
+  text-align: center;
+  color: black;
+  font-weight: 600;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  text-decoration: none;  
+}
+  
 
 
 /* Main Divs */
@@ -63,28 +83,28 @@ html, body {
 }
 
 #nav-image {
- height: 50px;
- width: 50px;
- display: block;
- background-color: white;
- margin-left: auto;
- margin-right: auto;
- padding: 2px;
- transition: transform 1s;
+  height: 50px;
+  width: 50px;
+  display: block;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2px;
+  transition: transform 1s;
 }
 #nav-image:hover {
- transform: scale(1.1);
- background-color: white;
+  transform: scale(1.1);
+  background-color: white;
 }
 
 .nav-link {
   font-family: 'Montserrat';
-    text-align: center;
-    color: black;
-    font-weight: 600;
-    font-size: 0.8rem;
-    text-transform: uppercase;
-    width: 100px;   
+  text-align: center;
+  color: black;
+  font-weight: 600;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  width: 100px;   
 }
 
 .nav-link:hover {
@@ -92,43 +112,24 @@ html, body {
   color: black;
 }
 
-a {
-  font-family: 'Montserrat';
-  text-align: center;
-  color: black;
-  font-weight: 600;
-  font-size: 0.8rem;
-  text-transform: uppercase;
-  text-decoration: none;  
-}
-
-
- /* Content Styles */
-p {
-  font-family: 'Montserrat';
-    color:black;
-    font-size: 1rem;
-    text-align: center;
-}
-
 /* Header */
 h1 {
   font-family: 'Montserrat';
-    text-align: center;
-    color: whitesmoke;
+  text-align: center;
+  color: whitesmoke;
   }
 
 h2 {
   font-family: 'Montserrat';
-    text-align: left;
-    margin-left: 50px;
-    color: black;
-    padding: 3px 15px;
-    font-weight: bold;
-    font-size: 1rem;
-    text-transform: uppercase;
-    letter-spacing: 1.7px;
-  }
+  text-align: left;
+  margin-left: 50px;
+  color: black;
+  padding: 3px 15px;
+  font-weight: bold;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 1.7px;
+}
 
 h3 {
   font-family: 'Montserrat';
@@ -138,7 +139,7 @@ h3 {
   font-size: 1rem;
   text-transform: uppercase;
   letter-spacing: 1.7px;
-  }
+}
 
 h4 {
   font-family: 'Montserrat';
@@ -146,9 +147,98 @@ h4 {
   font-size: 0.9rem;
   font-weight: bold;
   color: black;
-  }
+}
 
-  /* Responsiveness */
+  /* General Styles */
+p {
+  font-family: 'Montserrat';
+  font-size: 12px;
+}
+
+.centered-main {
+  display: grid;
+  justify-content: center;
+  -ms-transform: translateY(5%);
+  transform: translateY(5%);
+}
+
+.width {
+  text-align: left;
+  max-width: 600px;
+}
+
+.expertise-list {
+  text-align: left;
+}
+
+#resume {
+  text-align: center;
+  text-decoration: none;
+}
+
+#tagcenter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+}
+
+
+/* Main Image Style */
+#mainimage {
+  justify-content: center;
+  height: 250px;
+  max-width: 600px;
+}
+
+/* Portfolio Links */
+.imgthumb {
+  height: 40px;
+  width: 40px;
+  margin: 0px 15px;
+}
+
+.imgrow {
+  display: flex;
+  justify-content: center;
+}
+
+/* Text Styles */
+#matthewrobinson {
+  font-family: 'Montserrat';
+  text-align: center;
+  font-size: 2.5rem;
+  color: #080305;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+#tag {
+  font-family: 'Montserrat';
+  text-align: center;
+  color: white;
+  background: #080305;
+  font-weight: bold;
+  width: 300px;
+}
+
+ /* Expertise Column Styles */
+.columns {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column {
+  flex: 30%;
+  text-align: center;
+  margin: 0px 3px;
+}
+
+
+/* Responsiveness */
   @media only screen and (max-width: 1200px)
  {
   .navcolumns {
@@ -196,7 +286,7 @@ h4 {
     max-height: 400px;
     box-shadow: 0px;
   }
- }
+}
 
  @media only screen and (max-width: 600px) {
   .vertical-center {
@@ -248,4 +338,11 @@ h4 {
     align-items: center;
     justify-content: center;
   }
- }
+
+  #mainimage {
+    justify-content: center;
+    height: 250px;
+    width: 90%;
+    height: 90%;
+  }
+}
