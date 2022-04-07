@@ -319,10 +319,11 @@ p {
   }
 
   #div3 { 
+    display: block;
     background-color: white;
     border-top: solid white 2px;  
     padding: 25px;
-    height: fit-content;
+    height: 100%;
     box-shadow: 0px;
     margin: 0px;
   }
