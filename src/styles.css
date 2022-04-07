@@ -158,6 +158,7 @@ p {
 .centered-main {
   display: grid;
   justify-content: center;
+  justify-items: center;
   -ms-transform: translateY(5%);
   transform: translateY(5%);
 }
