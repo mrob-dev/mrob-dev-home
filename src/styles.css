@@ -168,7 +168,7 @@ h4 {
 
   #div1 { 
     display: flex;
-    min-width: 450px;
+    min-width: 300px;
     align-content: space-around;
     background-color: white; 
     border-top: solid white 2px;
