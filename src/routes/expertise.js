@@ -22,8 +22,8 @@ export default function Expertise() {
                   </p>
                   <br/>
                
-                  <div class="columns">
-                    <div class="column">
+                  <div class="excolumns">
+                    <div class="excolumn">
                     <h3>Creation</h3>
                       <p> 
                         <ul className="expertise-list">
@@ -33,7 +33,7 @@ export default function Expertise() {
                         </ul>
                       </p>
                     </div>
-                    <div class="column">
+                    <div class="excolumn">
                     <h3>Coordination</h3>
                       <p>
                         <ul className="expertise-list">
@@ -43,7 +43,7 @@ export default function Expertise() {
                         </ul>
                       </p>
                     </div>
-                    <div class="column">
+                    <div class="excolumn">
                     <h3>Strategy</h3>
                       <p>
                         <ul className="expertise-list">

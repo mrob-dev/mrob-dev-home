@@ -242,6 +242,20 @@ p {
   margin: 0px 3px;
 }
 
+/*Expertise Column Styles */
+.excolumns {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.excolumn {
+  flex: 30%;
+  text-align: center;
+  margin: 0px 3px;
+}
+
 
 /* Responsiveness */
   @media only screen and (max-width: 1200px)
@@ -341,6 +355,22 @@ p {
     flex: 100%;
     align-items: center;
     justify-content: center;
+  }
+
+  .columns {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .column {
+    display: flex;
+    flex: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
   }
 
   #mainimage {
